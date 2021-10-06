@@ -1,5 +1,5 @@
 
-// 01 부동소수점 확인
+// 01 문자 상수, 문자열 상수, 실수, 부동소수점 형태 실수 출력 
 #include<stdio.h>
 
 int main(void) {
@@ -14,8 +14,8 @@ int main(void) {
 	return 0;
 }
 
-/*
-// 02
+
+// 02 - 8진수, 16진수를 10진수로 연습
 #include<stdio.h>
 
 int main(void) {
@@ -27,7 +27,7 @@ int main(void) {
 }
 
 
-// 03
+// 03 - 실수 연산 및 출력 연습 (원의 면적 이용)
 #include<stdio.h>
 
 int main(void) {
@@ -36,7 +36,7 @@ int main(void) {
 }
 
 
-// 04
+// 04 - 정수 연산 및 출력 연습
 #include<stdio.h>
 
 int main(void) {
@@ -45,7 +45,7 @@ int main(void) {
 }
 
 
-// 05
+// 05 - 정수 변수 선언 및 할당 연습
 #include<stdio.h>
 
 int main(void) {
@@ -55,7 +55,7 @@ int main(void) {
 }
 
 
-// 06
+// 06 - 정수 변수 선언, 연산, 할당 연습
 #include<stdio.h>
 
 int main(void) {
@@ -67,7 +67,7 @@ int main(void) {
 }
 
 
-// 07
+// 07 - 출력 형식 지정자 활용 연습
 #include<stdio.h>
 
 int main(void) {
@@ -82,7 +82,7 @@ int main(void) {
 }
 
 
-// 08
+// 08 - 8진수, 10진수, 16진수 상수 표현 연습
 #include<stdio.h>
 
 int main(void) {
@@ -106,8 +106,8 @@ int main(void) {
 	return 0;
 }
 
-/*
-// 09
+
+// 09 - 매크로 상수 정의 및 사용 연습
 #include<stdio.h>
 #define PI 3.14
 
@@ -120,7 +120,7 @@ int main(void) {
 }
 
 
-// 10
+// 10 - 매크로 상수 실수 연산 활용
 #include<stdio.h>
 #define PI 3.141592
 
@@ -133,7 +133,7 @@ int main(void) {
 }
 
 
-// 11
+// 11 - 실수 연산 활용 연습 (화씨 -> 섭씨)
 #include<stdio.h>
 
 int main(void) {
@@ -144,7 +144,7 @@ int main(void) {
 }
 
 
-// 12
+// 12 - 실수 연산 활용 연습 (섭씨 -> 화씨)
 #include<stdio.h>
 
 int main(void) {
@@ -157,7 +157,7 @@ int main(void) {
 }
 
 
-// 13
+// 13 - 특수한 키워드(경보음) 연습
 #include<stdio.h>
 
 int main(void) {
@@ -166,7 +166,7 @@ int main(void) {
 }
 
 
-// 14
+// 14 - 8진수 작성과 출력 연습
 #include<stdio.h>
 
 int main(void) {
@@ -180,7 +180,7 @@ int main(void) {
 }
 
 
-// 15
+// 15 - 실수 연산 연습 (평 -> m^2)
 #include<stdio.h>
 
 int main(void) {
@@ -194,7 +194,7 @@ int main(void) {
 }
 
 
-// 16
+// 16 - 실수 연산 연습 (km -> mile)
 #include<stdio.h>
 
 int main(void) {
@@ -207,7 +207,7 @@ int main(void) {
 }
 
 
-// 17
+// 17 - 문자 상수 8진수 10진수 16진수로 출력 (ASCII코드값 확인)
 #include<stdio.h>
 
 int main(void) {
@@ -221,7 +221,7 @@ int main(void) {
 }
 
 
-// 18
+// 18 - 문자 상수 ASCII 코드 활용 연습
 #include<stdio.h>
 
 int main(void) {
@@ -234,7 +234,7 @@ int main(void) {
 }
 
 
-// 19
+// 19 - 정수연산 연습 (달러 환전 프로그램)
 #include<stdio.h>
 
 int main(void) {
@@ -246,7 +246,7 @@ int main(void) {
 }
 
 
-// 20
+// 20 - 실수 연산 연습
 #include<stdio.h>
 
 int main(void) {
@@ -257,4 +257,3 @@ int main(void) {
 
 	return 0;
 }
-*/
