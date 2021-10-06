@@ -1,4 +1,3 @@
-/*
 // 01 - 문자열 길이 구하는 함수 mystrlen 구현
 #include<stdio.h>
 #include<string.h>
@@ -375,7 +374,7 @@ int main(void) {
 	return 0;
 
 }
-*/
+
 
 // 14 - 표준입력으로 받은 정수를 그 값을 표현하는 문자열로 출력하는 프로그램(단 정수는 10000 미만)
 #include<stdio.h>
