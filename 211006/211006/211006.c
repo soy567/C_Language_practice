@@ -1,5 +1,4 @@
-/*
-// 01
+// 01 - 형식지정자 이용한 출력 포맷 연습(전체 폭 10)
 #include<stdio.h>
 
 int main(void) {
@@ -23,7 +22,7 @@ int main(void) {
 }
 
 
-// 02
+// 02 - 문자 표준입력 함수 연습(getchar, putchar) 
 #include<stdio.h>
 
 int main(void) {
@@ -44,7 +43,7 @@ int main(void) {
 }
 
 
-// 03
+// 03 - 매크로 상수 이용한 실수 연산 (원의 면적과 둘레)
 #include<stdio.h>
 #define PI 3.141592
 
@@ -62,7 +61,7 @@ int main(void) {
 }
 
 
-// 04
+// 04 - 실수 연산 활용 (화씨 -> 섭씨)
 #include<stdio.h>
 
 int main(void) {
@@ -76,7 +75,7 @@ int main(void) {
 }
 
 
-// 05
+// 05 - 실수 연산 활용 (화씨 -> 섭씨)
 #include<stdio.h>
 
 int main(void) {
@@ -94,7 +93,7 @@ int main(void) {
 }
 
 
-// 06
+// 06 - 실수 연산 활용 (평 -> m^2)
 #include<stdio.h>
 
 int main(void) {
@@ -108,7 +107,7 @@ int main(void) {
 }
 
 
-// 07
+// 07 - 실수 연산 활용 (km -> mile)
 #include<stdio.h>
 
 int main(void) {
@@ -123,7 +122,7 @@ int main(void) {
 }
 
 
-// 08
+// 08 - getchar 이용하여 문자 입력, 문자  8진수 10진수 16진수 값 출력 
 #include<stdio.h>
 
 int main(void) {
@@ -141,7 +140,7 @@ int main(void) {
 }
 
 
-// 09
+// 09 - 실수 연산과 형식지정자 이용한 출력포맷 설정 연습
 #include<stdio.h>
 
 int main(void) {
@@ -157,7 +156,7 @@ int main(void) {
 }
 
 
-// 10
+// 10 - 정수 연산 연습 (두 정수 합과 평균)
 #include<stdio.h>
 
 int main(void) {
@@ -173,7 +172,7 @@ int main(void) {
 }
 
 
-// 11
+// 11 - 실수 연산 연습 (두 실수 합과 평균)
 #include<stdio.h>
 
 int main(void) {
@@ -190,7 +189,7 @@ int main(void) {
 
 
 
-// 12
+// 12 - 실수 연산과 형변환 연습 (두 실수 합과 평균 정수 형변환)
 #include<stdio.h>
 
 int main(void) {
@@ -204,4 +203,3 @@ int main(void) {
 
 	return 0;
 }
-*/
