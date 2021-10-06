@@ -1,5 +1,5 @@
 /*
-// 01
+// 01 - 문자열 길이 구하는 함수 mystrlen 구현
 #include<stdio.h>
 #include<string.h>
 
@@ -23,7 +23,7 @@ int main(void) {
 }
 
 
-// 02
+// 02 - 문자열 연결함수 mystrcat 구현
 #include<stdio.h>
 
 void mystrcat(char s1[], const char s2[]) {
@@ -50,7 +50,7 @@ int main(void) {
 }
 
 
-// 03
+// 03 - gets 이용하여 문자열 두개 입력받고 mystrcat 이용하여 연결
 #include<stdio.h>
 
 char* mystrcat(char s1[], const char s2[]) {
@@ -88,7 +88,7 @@ int main(void) {
 }
 
 
-// 04
+// 04 - 문자열에서 특정 문자 삭제하는 함수 delchar 구현
 #include<stdio.h>
 
 void delchar(char str[], const char ch) {
@@ -114,7 +114,7 @@ int main(void) {
 }
 
 
-// 05
+// 05 - gets와 scanf 이용하여 문자열과 문자 입력받고 delchar 실행
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -145,7 +145,7 @@ int main(void) {
 }
 
 
-// 06
+// 06 - 한 단어 표준입력으로 받아 단어 역순으로 출력하는 프로그램 작성
 #include<stdio.h>
 
 int main(void) {
@@ -170,7 +170,7 @@ int main(void) {
 }
 
 
-// 07
+// 07 - 문자 입력받아 아스키 코드로 출력하는 프로그램
 #include<stdio.h>
 
 int main(void) {
@@ -184,7 +184,7 @@ int main(void) {
 }
 
 
-// 08
+// 08 - 한 줄의 문자열 표준입력으로 입력받아 단어의 문자를 역순으로 출력하는 프로그램
 #include<stdio.h>
 #include<string.h>
 
@@ -224,7 +224,7 @@ int main(void) {
 }
 
 
-// 09
+// 09 - 여려 줄의 문자열 입력받아 구두점의 수 구하여 출력 (ispunct 사용)
 #include<stdio.h>
 #include<string.h>
 #include<ctype.h>
@@ -251,7 +251,7 @@ int main(void) {
 }
 
 
-// 10
+// 10 - 정수형태 문자열 정수로 반환하는 함수  toint 구현, atoi와 비교
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -279,7 +279,7 @@ int main(void) {
 }
 
 
-// 11
+// 11 - toint 사용하여 입력된 두 정수를 더한 결과 출력하는 프로그램
 #include<stdio.h>
 
 int toint(const char* str) {
@@ -308,7 +308,7 @@ int main(void) {
 }
 
 
-// 12
+// 12 - 한줄의 문자열 입력받아 대문자는 소문자로, 소문자는 대문자로 변환하여 출력
 #include<stdio.h>
 #include<ctype.h>
 #include<string.h>
@@ -332,7 +332,9 @@ int main(void) {
 }
 
 
-// 13
+// 13 - 여러줄에 원하는 문장 입력받고, 마지막 줄에는 ctrl+Z만 입력하여 입력 종료 (최대 10줄)
+//           해당 문장에서 줄마다 모든 단어 추출해 각각 단어의 길이 출력하는 프로그램
+//           토큰은 빈칸, 쉼표, 마침표, 느낌표, 탭(\t)로 구분
 #include<stdio.h>
 #include<string.h>
 
@@ -375,7 +377,7 @@ int main(void) {
 }
 */
 
-// 14
+// 14 - 표준입력으로 받은 정수를 그 값을 표현하는 문자열로 출력하는 프로그램(단 정수는 10000 미만)
 #include<stdio.h>
 #include<locale.h>
 
